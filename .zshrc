@@ -26,7 +26,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 zstyle ':completion:*' rehash true
 PKG_CONFIG_PATH=/usr/lib/pkgconfig
 #Git
-source /home/aske/git/zsh-git-prompt/zshrc.sh
+source /usr/lib/zsh-git-prompt/zshrc.sh
 # an example prompt
 PROMPT='$(git_super_status) %# '
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
