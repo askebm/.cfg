@@ -58,7 +58,7 @@ modules-left = i3
 #modules-left = i3 mpd
 #modules-center = mpd
 #modules-right = volume wlan eth battery temperature date
-modules-right = filesystem home volume wlan battery temperature date
+modules-right = filesystem home opt volume wlan battery temperature date
 
 tray-position = right
 tray-padding = 0
@@ -101,6 +101,15 @@ type = internal/fs
 interval = 25
 
 mount-0 = /
+
+label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %free% free
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+[module/opt]
+type = internal/fs
+interval = 25
+
+mount-0 = /opt
 
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %free% free
 label-unmounted = %mountpoint% not mounted
