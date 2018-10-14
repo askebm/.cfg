@@ -17,8 +17,12 @@ let g:ale_completion_enabled = 1
 " Set UltiSnip Directory
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "myUltiSnips"]
 
+" Define where slime sends output
+let g:slime_target = "vimterminal"
+
 " Define leader key
-let mapleader="<"
+let mapleader= ","
+set showcmd
 " Set default latex type
 let g:tex_flavor = "latex"
 " Disable warnings about missing clientserver, since none is available
