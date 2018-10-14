@@ -30,3 +30,4 @@ source /usr/lib/zsh-git-prompt/zshrc.sh
 # an example prompt
 PROMPT='$(git_super_status) %# '
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
+alias todo='todo.sh'
