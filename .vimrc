@@ -15,7 +15,7 @@ let g:livepreview_previewer = '$HOME/.vim/scripts/mupdf.inotify'
 let g:ale_completion_enabled = 1
 
 " Set UltiSnip Directory
-let g:UltiSnipsSnippetDirectories=["UltiSnips"]
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "myUltiSnips"]
 
 " Define leader key
 let mapleader="<"
