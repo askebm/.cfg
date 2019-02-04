@@ -8,7 +8,7 @@ gaps inner 2
 for_window [class="^.*"] border pixel 1
 
 # Make terminal transparent
-exec --no-startup-id compton --xrender-sync-fence
+# exec --no-startup-id compton --xrender-sync-fence
 
 # Setup background image
 exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/ArchLogo.png
@@ -17,7 +17,7 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/ArchLogo.png
 exec ~/.config/polybar/launch.sh
 
 # Start barrier if home
-exec ~/.config/Debauchee/startup.sh
+# exec ~/.config/Debauchee/startup.sh
 
 # Use rofi instead og dmenu
 bindsym $mod+d			exec rofi -show run
