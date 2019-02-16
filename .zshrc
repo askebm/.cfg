@@ -20,6 +20,7 @@ promptinit
 #Alias
 alias 'ls=ls --color'
 alias 'clipboard=xclip -selection clipboard'
+#alias 'mbt=matlab -nodesktop -nosplash'
 #hook
 prompt bart
 source /usr/share/doc/pkgfile/command-not-found.zsh
