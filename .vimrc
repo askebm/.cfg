@@ -13,6 +13,7 @@ set wildmode=longest,list,full
 set wildmenu
 let g:livepreview_previewer = '$HOME/.vim/scripts/mupdf.inotify'
 let g:ale_completion_enabled = 1
+let g:ale_linters_explicit = 1
 
 " Set UltiSnip Directory
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "myUltiSnips"]
