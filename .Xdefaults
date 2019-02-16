@@ -34,7 +34,7 @@ URxvt.background:       [70]#001A33
 URxvt.depth:		32
 URxvt.font: 		xft:monospace:size=11
 URxvt.scrollBar:	false
-URxvt.cursorColor:	white
+URxvt.cursorColor:	color5
 
 !! Extensions
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
