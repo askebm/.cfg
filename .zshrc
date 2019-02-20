@@ -20,6 +20,7 @@ promptinit
 #Alias
 alias 'ls=ls --color'
 alias 'clipboard=xclip -selection clipboard'
+alias 'matlab=env LD_PRELOAD=/usr/lib/libfreetype.so.6 matlab'
 #hook
 prompt bart
 source /usr/share/doc/pkgfile/command-not-found.zsh
