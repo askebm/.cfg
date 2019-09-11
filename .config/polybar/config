@@ -58,7 +58,7 @@ modules-left = i3
 #modules-left = i3 mpd
 #modules-center = mpd
 #modules-right = volume wlan eth battery temperature date
-modules-right = filesystem volume wlan battery temperature date
+modules-right = dotfile filesystem volume wlan battery temperature date
 
 tray-position = right
 tray-padding = 0
@@ -75,6 +75,11 @@ tray-padding = 0
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
+
+[module/dotfile]
+type = custom/script
+exec = ~/.bin/dotfilerepostatus.sh
+#label-padding = 5
 
 [module/xwindow]
 type = internal/xwindow
@@ -343,6 +348,9 @@ format-discharging-underline = ${self.format-charging-underline}
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
+
+
+
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
