@@ -11,6 +11,8 @@ set hidden
 set history=100
 set wildmode=longest,list,full
 set wildmenu
+set tabstop=2 shiftwidth=2 smarttab
+
 let g:livepreview_previewer = '$HOME/.vim/scripts/mupdf.inotify'
 let g:ale_completion_enabled = 1
 let g:ale_linters_explicit = 1
@@ -20,6 +22,7 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips", "myUltiSnips"]
 
 " Define where slime sends output
 let g:slime_target = "vimterminal"
+let g:slime_no_mappings=1
 
 " Define leader key
 let mapleader= ","
@@ -28,6 +31,10 @@ set showcmd
 let g:tex_flavor = "latex"
 " Disable warnings about missing clientserver, since none is available
 let g:vimtex_compiler_latexmk = {'callback' : 0}
+
+" Conceal sections
+set conceallevel=1
+let g:tex_conceal='abdmg'
 
 " Clang_complete "
 let g:clang_library_path='/usr/lib'
