@@ -21,6 +21,15 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/ArchLogo.png
 # Use polybar instead of i3status
 exec ~/.config/polybar/launch.sh
 
+# Restart eduroam if down
+exec ~/.bin/eduroamNetwork
+
+# Dropbox
+exec dropbox
+
+# Dynamic desktop
+exec ~/.bin/desktop_process
+
 # Start barrier if home
 # exec ~/.config/Debauchee/startup.sh
 
