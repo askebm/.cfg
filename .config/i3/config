@@ -24,6 +24,9 @@ exec ~/.config/polybar/launch.sh
 # Restart eduroam if down
 exec ~/.bin/eduroamNetwork
 
+# Battery warning
+exec ~/.bin/batterywarning.sh
+
 # Dropbox
 exec dropbox
 
