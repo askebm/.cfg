@@ -21,6 +21,7 @@ secondary = ${xrdb:color5}
 ;secondary = #e60053
 alert = #bd2c40
 col = #00f
+red = ${xrdb:color1}
 ;fg = ${xrdb:color7}
 ;bg = ${xrdb:color2}
 
@@ -353,6 +354,7 @@ format-full-underline = ${self.format-charging-underline}
 
 
 ramp-capacity-0 = 
+ramp-capacity-0-underline = ${colors.red}
 ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
