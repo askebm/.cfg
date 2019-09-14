@@ -1,4 +1,4 @@
-*foreground: #00cc00
+*foreground: #d2d2d2
 *foreground_bold: #a8a19f
 *cursor: #a8a19f
 *background:       #1b1918
@@ -30,7 +30,8 @@
 *color15: #f1efee
 
 URxvt.intensityStyles:	false
-URxvt.background:       [70]#000000
+!!URxvt.background:       [70]#000000
+URxvt.background:       #1c1c1c
 URxvt.depth:		32
 URxvt.font: 		xft:monospace:size=11
 URxvt.scrollBar:	false
