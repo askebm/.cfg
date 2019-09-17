@@ -20,6 +20,7 @@ promptinit
 #Alias
 alias 'ls=ls --color'
 alias 'clipboard=xclip -selection clipboard'
+alias 'ccat=highlight -O ansi'
 #alias 'mbt=matlab -nodesktop -nosplash'
 #hook
 prompt bart
@@ -32,3 +33,5 @@ source /usr/lib/zsh-git-prompt/zshrc.sh
 PROMPT='$(git_super_status) %# '
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
 alias todo='todo.sh'
+
+source /usr/share/gazebo/setup.sh
