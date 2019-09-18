@@ -1,2 +1,3 @@
 #!/bin/bash
-matlab -nodesktop -nosplash
+env LD_PRELOAD=/usr/lib/libfreetype.so.6 MATLAB_LOG_DIR=/tmp\
+       	/usr/local/bin/matlab -nodesktop -nosplash "$@"
