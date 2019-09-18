@@ -59,8 +59,7 @@ modules-left = i3
 #modules-left = i3 mpd
 #modules-center = mpd
 #modules-right = volume wlan eth battery temperature date
-modules-right = filesystem volume wlan battery temperature date
-modules-right = dotfile filesystem volume wlan battery temperature date
+# MODULES_HERE
 
 tray-position = right
 tray-padding = 0
