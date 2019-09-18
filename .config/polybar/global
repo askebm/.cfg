@@ -118,7 +118,6 @@ interval = 25
 mount-0 = /opt
 
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %free% free
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %free% free 
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -127,9 +126,7 @@ type = internal/fs
 interval = 25
 
 mount-0 = /home
-mount-0 = /home/aske
 
-label-mounted = %{F#0a81f5}~%{F-}: %percentage_used%%
 label-mounted = %{F#0a81f5}~%{F-}: %free% free
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
