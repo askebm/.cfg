@@ -1,1 +1,1 @@
-modules-right = filesystem home opt volume wlan battery temperature date
+modules-right = fdotfile ilesystem aske opt volume temperature date
