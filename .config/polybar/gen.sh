@@ -1,4 +1,6 @@
-cat global | sed '/MODULES_HERE/{
+#!/bin/sh
+dir=`dirname $0`
+cat $dir/global | sed "/MODULES_HERE/{
 s/.*//g
-r Omen
-}' > config
+r $dir/Omen
+}" > $dir/config

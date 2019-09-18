@@ -1,0 +1,4 @@
+#!/bin/sh
+#Generate config files for polybar and i3
+./.config/i3/gen.sh
+./.config/polybar/gen.sh
