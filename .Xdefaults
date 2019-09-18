@@ -30,11 +30,12 @@
 *color15: #f1efee
 
 URxvt.intensityStyles:	false
-URxvt.background:       [70]#001A33
+!!URxvt.background:       [70]#000000
+URxvt.background:       #1c1c1c
 URxvt.depth:		32
 URxvt.font: 		xft:monospace:size=11
 URxvt.scrollBar:	false
-URxvt.cursorColor:	color5
+URxvt.cursorColor:	magenta
 
 !! Extensions
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select

@@ -22,6 +22,7 @@ alias 'ls=ls --color'
 alias 'clipboard=xclip -selection clipboard'
 alias 'ccat=highlight -O ansi'
 #alias 'mbt=matlab -nodesktop -nosplash'
+alias 'matlab=env LD_PRELOAD=/usr/lib/libfreetype.so.6 MATLAB_LOG_DIR=/tmp matlab'
 #hook
 prompt bart
 source /usr/share/doc/pkgfile/command-not-found.zsh
@@ -34,4 +35,8 @@ PROMPT='$(git_super_status) %# '
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
 alias todo='todo.sh'
 
+VISUAL=vim
+EDITOR=vim
+
+# Gazebo setup
 source /usr/share/gazebo/setup.sh
