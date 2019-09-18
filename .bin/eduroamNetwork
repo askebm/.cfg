@@ -1,0 +1,12 @@
+#/bin/bash
+while sleep 1
+do
+test="$(ping -c1 1.1.1.1 | grep 'Host Unreachable')"
+if [ ! -z "${test}" ] 
+then
+	dunstify "Resetting network"
+	nmcli connection down eduroam
+	sleep 1
+	nmcli connection up eduroam
+fi
+done

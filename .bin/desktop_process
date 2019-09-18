@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/aske/git/process-wallpaper
+while sleep 300; do
+	./setup.sh
+done
