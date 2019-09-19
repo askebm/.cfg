@@ -1,1 +1,1 @@
-modules-right = fdotfile ilesystem aske opt volume temperature date
+modules-right = dotfile filesystem aske opt volume temperature date
