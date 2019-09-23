@@ -1,7 +1,7 @@
 set recolor true
 set recolor-darkcolor "#d2d2d2"
 set recolor-lightcolor "#1c1c1c"
-
+set default-bg "#1c1c1c"
 # copy selection to system clipboard
 set selection-clipboard clipboard
 
