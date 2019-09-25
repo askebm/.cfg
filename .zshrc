@@ -47,8 +47,8 @@ PROMPT='$(git_super_status) %# '
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
 alias todo='todo.sh'
 
-VISUAL=/usr/bin/vim
-EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/vim
+export EDITOR=/usr/bin/vim
 
 # Gazebo setup
 source /usr/share/gazebo/setup.sh
