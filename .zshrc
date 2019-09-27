@@ -52,3 +52,6 @@ export EDITOR=/usr/bin/vim
 
 # Gazebo setup
 source /usr/share/gazebo/setup.sh
+
+# ROS setup
+source /opt/ros/melodic/setup.zsh
