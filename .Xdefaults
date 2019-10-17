@@ -33,7 +33,9 @@ URxvt.intensityStyles:	false
 !!URxvt.background:       [70]#000000
 URxvt.background:       #1c1c1c
 URxvt.depth:		32
-URxvt.font: 		xft:monospace:size=11
+URxvt.font: 		xft:monospace:size=11,\
+								-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1,\
+								xft:Code2000:antialias=false
 URxvt.scrollBar:	false
 URxvt.cursorColor:	magenta
 
