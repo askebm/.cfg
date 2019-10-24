@@ -225,3 +225,6 @@ bindsym $mod+r mode "resize"
 # Assign signal to workspace 9
 assign [class="^Signal$"] 9
 
+# Disbale mouse inteaction with focus
+focus_follows_mouse no
+
