@@ -25,6 +25,9 @@ for_window [window_role="task_dialog"] floating enable
 # Make terminal transparent
 # exec --no-startup-id compton --xrender-sync-fence
 
+# Swap caps and escape
+exec ~/.bin/swap_escape_capslock
+
 # Setup background image
 exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/ArchLogo.png
 
