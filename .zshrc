@@ -55,3 +55,6 @@ source /usr/share/gazebo/setup.sh
 
 # ROS setup
 source /opt/ros/melodic/setup.zsh
+
+# Switch caps and escape
+setxkbmap -option caps:escape
