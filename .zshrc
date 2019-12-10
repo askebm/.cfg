@@ -50,11 +50,5 @@ alias todo='todo.sh'
 export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
 
-# Gazebo setup
-source /usr/share/gazebo/setup.sh
-
-# ROS setup
-source /opt/ros/melodic/setup.zsh
-
 # Switch caps and escape
 setxkbmap -option caps:escape
