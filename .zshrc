@@ -50,5 +50,8 @@ alias todo='todo.sh'
 export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
 
+#Qt5
+export QT_QPA_PLATFORMTHEME=qt5ct
+
 # Switch caps and escape
 setxkbmap -option caps:escape
