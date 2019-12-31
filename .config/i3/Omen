@@ -2,7 +2,7 @@
 exec ~/.bin/eduroamNetwork
 
 # Battery warning
-exec ~/.bin/batterywarning.sh
+#exec ~/.bin/batterywarning.sh
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
