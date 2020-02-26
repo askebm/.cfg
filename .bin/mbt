@@ -1,4 +1,4 @@
 #!/bin/bash
-env LD_PRELOAD=/usr/lib/libfreetype.so.6:/usr/lib/libstdc++.so.6.0.27\
+env LD_PRELOAD=/usr/lib/libfreetype.so.6:/usr/lib/libstdc++.so\
  			MATLAB_LOG_DIR=/tmp\
     	/usr/local/bin/matlab -nodesktop -nosplash "$@"
