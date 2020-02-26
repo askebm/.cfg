@@ -1,0 +1,3 @@
+#!/bin/bash
+echo -en "\033]710;xft:monospace:size=${1}\033\\"
+
