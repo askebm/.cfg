@@ -1,1 +1,1 @@
-modules-right = dotfile filesystem aske opt volume temperature date
+modules-right = dotfile filesystem home volume temperature date
