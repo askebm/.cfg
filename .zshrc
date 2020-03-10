@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _expand _complete _ignored
@@ -39,11 +46,9 @@ alias 'matlab=env LD_PRELOAD=/usr/lib/libfreetype.so.6 MATLAB_LOG_DIR=/tmp matla
 prompt bart
 source /usr/share/doc/pkgfile/command-not-found.zsh
 zstyle ':completion:*' rehash true
+
 PKG_CONFIG_PATH=/usr/lib/pkgconfig
-#Git
-source /usr/lib/zsh-git-prompt/zshrc.sh
-# an example prompt
-PROMPT='$(git_super_status) %# '
+#
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
 alias todo='todo.sh'
 
@@ -53,5 +58,10 @@ export EDITOR=/usr/bin/vim
 #Qt5
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
 # Switch caps and escape
 setxkbmap -option caps:escape
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
