@@ -50,7 +50,7 @@ zstyle ':completion:*' rehash true
 PKG_CONFIG_PATH=/usr/lib/pkgconfig
 #
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
-alias todo='todo.sh'
+alias t='todo.sh'
 
 export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
