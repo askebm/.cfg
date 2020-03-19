@@ -37,6 +37,7 @@ zle -N edit-command-line
 bindkey '^x^e' edit-command-line
 
 #Alias
+alias grep='grep --color '
 alias 'ls=ls --color'
 alias 'clipboard=xclip -selection clipboard'
 alias 'ccat=highlight -O ansi'
