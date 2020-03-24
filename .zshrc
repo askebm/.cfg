@@ -46,6 +46,8 @@ alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
 alias t='todo.sh'
 #alias 'mbt=matlab -nodesktop -nosplash'
 alias 'matlab=env LD_PRELOAD=/usr/lib/libfreetype.so.6 MATLAB_LOG_DIR=/tmp matlab'
+md() {pandoc -t asciidoc ${1} | /usr/bin/less -r;}
+
 #hook
 prompt bart
 source /usr/share/doc/pkgfile/command-not-found.zsh
