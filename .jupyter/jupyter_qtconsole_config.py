@@ -277,7 +277,7 @@ c.ConsoleWidget.scrollbar_visibility = False
 
 ## If not empty, use this Pygments style for syntax highlighting. Otherwise, the
 #  style sheet is queried for Pygments style information.
-c.JupyterWidget.syntax_style = 'vim'
+c.JupyterWidget.syntax_style = 'fuity'
 
 #------------------------------------------------------------------------------
 # KernelManager(ConnectionFileMixin) configuration
