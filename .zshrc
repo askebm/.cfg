@@ -46,6 +46,7 @@ alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
 alias t='todo.sh'
 #alias 'mbt=matlab -nodesktop -nosplash'
 alias 'matlab=env LD_PRELOAD=/usr/lib/libfreetype.so.6 MATLAB_LOG_DIR=/tmp matlab'
+mc() {mkdir ${1} && cd ${1};}
 md() {pandoc -t asciidoc ${1} | /usr/bin/less -r;}
 
 #hook
