@@ -40,7 +40,7 @@ bindkey '^x^e' edit-command-line
 alias grep='grep --color '
 alias 'ls=ls --color'
 alias 'clipboard=xclip -selection clipboard'
-alias 'ccat=highlight -O ansi'
+alias 'ccat=pygmentize -g -O style=gruvbox '
 alias	less='less -r'
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
 alias t='todo.sh'
