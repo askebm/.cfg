@@ -20,6 +20,7 @@ for_window [class="^.*"] border pixel 1
 # Make dialog windows float
 for_window [window_role="pop-up"] floating enable
 for_window [title="float_me"] floating enable
+for_window [title="fullscreen_me"] fullscreen enable
 for_window [window_role="task_dialog"] floating enable
 
 # Make terminal transparent
@@ -36,6 +37,8 @@ exec ~/.config/polybar/launch.sh
 
 # Dropbox
 exec dropbox
+# Nextcloud
+exec nextcloud
 
 # Dynamic desktop
 exec ~/.bin/desktop_process

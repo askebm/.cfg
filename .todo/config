@@ -3,7 +3,7 @@
 # Your todo.txt directory (this should be an absolute path)
 #export TODO_DIR="/Users/gina/Documents/todo"
 #export TODO_DIR=$(dirname "$0") #Default
-export TODO_DIR="${HOME}/Dropbox/Todo"
+export TODO_DIR="${HOME}/Nextcloud/Todo"
 
 # Your todo/done/report.txt locations
 export TODO_FILE="$TODO_DIR/todo.txt"
