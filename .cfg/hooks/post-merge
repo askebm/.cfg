@@ -2,3 +2,8 @@
 #Generate config files for polybar and i3
 $HOME/.config/i3/gen.sh
 $HOME/.config/polybar/gen.sh
+
+#Hooks for $HOME/Git
+for sc in $HOME/Git/.hooks/*.sh; do
+	bash sc
+done
