@@ -5,5 +5,5 @@ $HOME/.config/polybar/gen.sh
 
 #Hooks for $HOME/Git
 for sc in $HOME/Git/.hooks/*.sh; do
-	bash sc
+	bash ${sc}
 done
