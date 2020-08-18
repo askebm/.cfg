@@ -35,8 +35,6 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/ArchLogo.png
 # Use polybar instead of i3status
 exec ~/.config/polybar/launch.sh
 
-# Dropbox
-exec dropbox
 # Nextcloud
 exec nextcloud
 
