@@ -1,8 +1,12 @@
 # Restart eduroam if down
-exec ~/.bin/eduroamNetwork
+#exec ~/.bin/eduroamNetwork
 
 # Battery warning
 #exec ~/.bin/batterywarning.sh
+
+# Wallpaper
+exec feh --bg-scale ~/Pictures/Wallpapers/Bird.jpg
+
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness

@@ -38,9 +38,6 @@ exec ~/.config/polybar/launch.sh
 # Nextcloud
 exec nextcloud
 
-# Dynamic desktop
-exec ~/.bin/desktop_process
-
 # Start barrier if home
 # exec ~/.config/Debauchee/startup.sh
 
