@@ -262,7 +262,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlo1
+interface = wlp3s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -432,8 +432,8 @@ format-underline = ${xrdb:color1}
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
-label = %temperature%
-label-warn = %temperature%
+label = %temperature-c%
+label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
 ramp-0 = 
