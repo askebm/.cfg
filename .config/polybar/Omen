@@ -1,1 +1,1 @@
-modules-right = dotfile filesystem volume wlan battery temperature date
+modules-right = dotfile filesystem pulseaudio wlan battery temperature date
