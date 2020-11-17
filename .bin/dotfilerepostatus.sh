@@ -2,13 +2,13 @@
 shopt -s expand_aliases
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 TEXT=""
-if [ $(config status | grep "nothing to commit" | wc -l) -eq 0 ]
+if [ $(config status --ignore-submodules | grep "nothing to commit" | wc -l) -eq 0 ]
 then
     #modified
     TEXT="%{u#ff4b14}%{F-}"
 fi
 alias vimconf='/usr/bin/git --git-dir=$HOME/.vim/.git/ --work-tree=$HOME/.vim/'
-if [ $(vimconf status | grep "nothing to commit" | wc -l) -eq 0 ]
+if [ $(vimconf status --ignore-submodules | grep "nothing to commit" | wc -l) -eq 0 ]
 then
     #modified
     TEXT=${TEXT}"%{u#ff4b14}%{F-}"
