@@ -101,7 +101,7 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
 !! Matcher
-URxvt.url-launcher:	qutebrowser
+URxvt.url-launcher:	firefox
 URxvt.matcher.button:	1
 
 rofi.color-enabled:	true
