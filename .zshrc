@@ -45,6 +45,7 @@ alias 'ccat=pygmentize -g -O style=gruvbox '
 alias	less='less -r'
 alias config='/usr/bin/git --git-dir=/home/aske/.cfg/ --work-tree=/home/aske'
 alias t='todo.sh'
+alias info='info --vi-keys'
 #alias 'mbt=matlab -nodesktop -nosplash'
 alias 'matlab=env LD_PRELOAD=/usr/lib/libfreetype.so.6 MATLAB_LOG_DIR=/tmp matlab'
 mc() {mkdir ${1} && cd ${1};}
